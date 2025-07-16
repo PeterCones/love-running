@@ -41,6 +41,22 @@ h1 {
     color: #252525 ;
 }
 
+/* main nav styling */
+
+#menu {
+    list-style-type: none;
+    text-size-adjust: 110% ;
+    letter-spacing: 4px;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Main content */
 main {
     background-color: lightblue;

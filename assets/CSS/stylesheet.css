@@ -73,6 +73,8 @@ nav {
     top:100%
 }
 
+
+
 /* Nav toggle */
 
 #nav-toggle:checked~nav {
@@ -87,6 +89,8 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+
 
 /* Main content */
 main {
@@ -131,8 +135,15 @@ footer {
     }
 
     /* Main content */
-
     main {
         margin-top: 79px;
     }
+}
+
+/* large devices (laptops/desktops 992px and up */
+
+@media screen and (min-width: 992px) {
+    #menu li:hover a {
+    border-bottom: 1px solid #3a3a3a;
+}    
 }

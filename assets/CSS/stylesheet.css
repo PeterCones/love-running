@@ -192,7 +192,18 @@ main {
 
 #times h3 {
     color: #ffffff;
+    line-height:1em ;
 }
+
+/* gallery page */
+
+    #photos img {
+        width: 100%;
+    }
+
+    #photos {
+        line-height: 0;
+    }
 
 /* Footer */
 #social-networks {

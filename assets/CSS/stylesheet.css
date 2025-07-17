@@ -92,6 +92,7 @@ nav {
 main {
     background-color: lightblue;
     flex: 1 0 auto; /* allow main content to use surplus space */  
+    margin-top: 47px;
 }
 
 /* Footer */

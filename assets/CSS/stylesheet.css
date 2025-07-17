@@ -89,9 +89,15 @@ nav {
 
 /* Main content */
 main {
-  background-color: lightblue;
   flex: 1 0 auto; /* allow main content to use surplus space */
   margin-top: 47px;
+  background:  url("/assets/images/hero-image.webp") no-repeat center center/cover;
+}
+
+/* Hero styling */
+#hero {
+    height:600px;
+    width:100%;
 }
 
 /* Footer */
